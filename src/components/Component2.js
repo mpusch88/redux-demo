@@ -1,22 +1,21 @@
 import React from 'react';
-import '../styles/test.css'
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import {selectFirst, selectSecond} from '../actions/testAction';
+import {selectSecond} from '../actions/testAction';
+import '../styles/test.css'
 
 class Component2 extends React.Component {
     // constructor(props) {
     //     super(props);
     // }
 
-    render() {
-        console.log("Current state of 2 :" + this.props.color);
+    render() {        
         if (!this.props.color) {
             return (
                 <div
                     className='test-container'
                     style={{
-                    backgroundColor: 'yellow'
+                    backgroundColor: 'orange'
                 }}>
                     Container 2!
                     <button onClick={() => this.props.selectSecond()}>Test!</button>
@@ -38,7 +37,6 @@ function mapStateToProps(state) {
 
 function matchDispatchToProps(dispatch) {
     return bindActionCreators({
-        selectFirst: selectFirst,
         selectSecond: selectSecond
     }, dispatch);
 }
