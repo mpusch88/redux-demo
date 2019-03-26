@@ -17,7 +17,7 @@ class Component1 extends React.Component {
                     style={{
                     backgroundColor: 'blue'
                 }}>
-                    Container 1!
+                    <span>Component 1!</span>
                     <button onClick={() => this.props.selectFirst()}>Test!</button>
                 </div>
             );

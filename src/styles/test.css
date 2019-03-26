@@ -9,3 +9,8 @@
 button {
 	margin: 15px;
 }
+
+span {
+	display: block;
+	margin: 10px;
+}

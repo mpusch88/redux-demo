@@ -17,7 +17,7 @@ class Component2 extends React.Component {
                     style={{
                     backgroundColor: 'orange'
                 }}>
-                    Container 2!
+                    <span>Component 2!</span>
                     <button onClick={() => this.props.selectSecond()}>Test!</button>
                 </div>
             );
