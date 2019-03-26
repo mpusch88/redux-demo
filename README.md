@@ -35,7 +35,6 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 return createStore(
   reducerName,
   composeWithDevTools());
-));
 
 ...
 ```
