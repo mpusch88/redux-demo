@@ -1,5 +1,6 @@
 const selectFirst = () => {
-	console.log("Select First");
+	console.log("Button one pressed");
+
 	return {
 		type: "BUTTON_SELECTED",
 		color: {
@@ -9,7 +10,8 @@ const selectFirst = () => {
 };
 
 const selectSecond = () => {
-	console.log("Select Second");
+	console.log("Button 2 pressed");
+
 	return {
 		type: "BUTTON_SELECTED",
 		color: {
