@@ -10,7 +10,7 @@ Demonstrates the basic functionality of a React-Redux application.
 
 - Navigate in terminal to the newly created directory: `cd redux-demo`
 
-- Run: `npm start`
+- Run: `npm i` then `npm start`
 
 - If browser window doesn't open automatically, navigate to <http://localhost:3000> to view.
 
